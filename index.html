@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Diri</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Profil Diri Saya</h1>
+      <p>Selamat datang di website pribadi saya!</p>
+    </header>
+
+    <nav>
+      <a href="#tentang">Tentang Saya</a>
+      <a href="#hobi">Hobi</a>
+      <a href="#data">Data Diri</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <main>
+      <section id="tentang" class="kartu">
+        <h2>Tentang Saya</h2>
+        <p>
+          Halo, nama saya Rohmah. Saya sedang belajar membuat website
+          menggunakan HTML dan CSS.
+        </p>
+        <img src="foto.png" alt="Gambar profil sementara" />
+      </section>
+
+      <section id="hobi" class="kartu">
+        <h2>Hobi Saya</h2>
+        <ul>
+          <li>Game</li>
+          <li>Mendengarkan musik</li>
+        </ul>
+      </section>
+
+      <section id="data" class="kartu">
+        <h2>Data Diri</h2>
+        <table>
+          <tr>
+            <th>Informasi</th>
+            <th>Keterangan</th>
+          </tr>
+          <tr>
+            <td>Nama</td>
+            <td>Rohmah</td>
+          </tr>
+          <tr>
+            <td>Program Studi</td>
+            <td>Teknik informatika</td>
+          </tr>
+          <tr>
+            <td>Hobi</td>
+            <td>Mendengarkan musik</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="kontak" class="kartu">
+        <h2>Form Kontak</h2>
+        <form>
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" placeholder="Rohmah Nur Hidayah" />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="rohmahnhidayah@gmail.com"
+          />
+
+          <label for="pesan">Pesan:</label>
+          <textarea id="pesan" placeholder="Tulis pesan"></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Profil Diri Saya</p>
+    </footer>
+  </body>
+</html>
